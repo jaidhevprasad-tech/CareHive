@@ -1,0 +1,552 @@
+{
+  "metadata": {
+    "source": "NHS Scotland Inform - A to Z of Illnesses and Conditions",
+    "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/",
+    "collection_date": "2025-01-28",
+    "purpose": "Training dataset for Small Language Model (SLM) on medical conditions",
+    "total_conditions": 10,
+    "categories": [
+      "cardiovascular",
+      "respiratory",
+      "mental_health",
+      "skin",
+      "diabetes",
+      "kidney",
+      "neurological"
+    ]
+  },
+  "conditions": [
+    {
+      "name": "Abdominal Aortic Aneurysm (AAA)",
+      "category": "cardiovascular",
+      "description": "A swelling (aneurysm) of the aorta – the main blood vessel that leads away from the heart, down through the abdomen to the rest of the body.",
+      "symptoms": [
+        "Often no symptoms in early stages",
+        "Pain or pulsating feeling in abdomen (tummy)",
+        "Persistent back pain",
+        "Sudden severe abdominal pain (if ruptured)",
+        "Dizziness (if ruptured)",
+        "Sweaty and clammy skin (if ruptured)",
+        "Rapid heartbeat (if ruptured)",
+        "Shortness of breath (if ruptured)",
+        "Loss of consciousness (if ruptured)"
+      ],
+      "causes": [
+        "Weakening of aortic wall (exact cause unclear)",
+        "Smoking (major risk factor)",
+        "High blood pressure",
+        "High cholesterol",
+        "Atherosclerosis",
+        "Family history of AAAs",
+        "Being male",
+        "Increasing age (over 65)"
+      ],
+      "treatments": [
+        "Regular monitoring with ultrasound scans",
+        "Surgery to replace weakened section with synthetic tubing (for large AAAs)",
+        "Endovascular surgery (keyhole surgery)",
+        "Open surgery",
+        "Medications to lower cholesterol and blood pressure"
+      ],
+      "prevention": [
+        "Stop smoking",
+        "Eat a low-fat diet",
+        "Exercise regularly",
+        "Maintain healthy weight",
+        "Control blood pressure",
+        "Manage cholesterol levels"
+      ],
+      "diet_recommendations": [
+        "Avoid high-fat diet",
+        "Eat balanced, heart-healthy diet",
+        "Limit saturated fats"
+      ],
+      "emergency_signs": [
+        "Sudden severe abdominal pain",
+        "Signs of rupture require immediate 999 call"
+      ]
+    },
+    {
+      "name": "Acne",
+      "category": "skin",
+      "description": "A common skin condition that often develops on the face, back or chest, causing spots, oily skin, deeper cysts and sometimes skin that's hot or painful to touch.",
+      "symptoms": [
+        "Blackheads (small black or yellowish bumps)",
+        "Whiteheads (similar to blackheads but firmer)",
+        "Papules (small red bumps that may feel tender)",
+        "Pustules (papules with white tip from pus buildup)",
+        "Nodules (large hard lumps beneath skin surface)",
+        "Cysts (large pus-filled lumps that can cause scarring)"
+      ],
+      "causes": [
+        "Overproduction of sebum by sebaceous glands",
+        "Blocked hair follicles",
+        "Bacterial infection of blocked follicles",
+        "Hormonal changes (periods, pregnancy, PCOS)",
+        "Testosterone increase during puberty",
+        "Family history",
+        "Some cosmetic products",
+        "Certain medications",
+        "Pressure from items like headbands or backpacks",
+        "Smoking"
+      ],
+      "treatments": [
+        "Topical treatments (creams applied to skin)",
+        "Oral medications",
+        "Hormonal therapies for women (especially combined oral contraceptive pill)",
+        "Antibiotics for severe acne",
+        "Isotretinoin (Roaccutane) for severe cases"
+      ],
+      "prevention": [
+        "Wash affected area with mild soap and lukewarm water",
+        "Use fragrance-free, water-based skin products",
+        "Avoid wearing lots of makeup",
+        "Remove makeup completely before bed",
+        "Don't wash skin more than twice daily",
+        "Don't squeeze spots or try to clean out blackheads"
+      ],
+      "diet_recommendations": [
+        "No specific dietary restrictions mentioned",
+        "No evidence that poor hygiene plays a role"
+      ]
+    },
+    {
+      "name": "Asthma",
+      "category": "respiratory",
+      "description": "A long-term condition caused by inflammation of the airways in the lungs.",
+      "symptoms": [
+        "Coughing",
+        "Wheezing",
+        "Chest tightness",
+        "Breathlessness",
+        "Symptoms often worse at night and early morning"
+      ],
+      "causes": [
+        "Not clear exactly what causes asthma",
+        "Combination of factors likely",
+        "Higher risk if you have allergies (eczema, hay fever, food allergies)",
+        "Family history of asthma",
+        "Childhood bronchiolitis",
+        "Exposure to tobacco smoke in childhood",
+        "Premature birth",
+        "Low birth weight"
+      ],
+      "treatments": [
+        "Preventer inhalers (used daily)",
+        "Blue reliever inhalers (for quick symptom relief)",
+        "Anti-inflammatory reliever (AIR) therapy",
+        "Maintenance and reliever therapy (MART)",
+        "Montelukast tablets",
+        "Theophyllines",
+        "Biological treatments",
+        "Oral steroids (for severe cases)"
+      ],
+      "prevention": [
+        "Identify and avoid triggers",
+        "Use prescribed medications correctly",
+        "Follow personal asthma action plan",
+        "Get regular medication reviews"
+      ],
+      "triggers": [
+        "Upper respiratory infections (colds, flu)",
+        "Dust mites",
+        "Animal fur",
+        "Feathers",
+        "Pollen",
+        "Cigarette smoke",
+        "Chemical fumes",
+        "Pollution",
+        "Exercise",
+        "Mould or damp",
+        "Emotions and stress",
+        "Food allergies",
+        "Certain weather",
+        "NSAIDs (aspirin, ibuprofen)",
+        "Beta-blockers",
+        "Foods containing sulphites"
+      ],
+      "diet_recommendations": [
+        "Avoid foods containing sulphites if they trigger symptoms",
+        "Identify and avoid specific food allergens if applicable"
+      ]
+    },
+    {
+      "name": "Depression",
+      "category": "mental_health",
+      "description": "A mental health condition with a range of symptoms that can affect how you think and feel, causing low mood or loss of enjoyment in things.",
+      "symptoms": [
+        "Continuous sadness or low mood",
+        "Feeling irritable, guilty, hopeless",
+        "Tiredness or low energy",
+        "Feeling emotional or tearful",
+        "Anxiety",
+        "Anger or frustration about small things",
+        "Low self-esteem and confidence",
+        "Intolerance of other people",
+        "Difficulty making decisions",
+        "Not enjoying usual activities",
+        "Thoughts of self-harm or suicide",
+        "Speaking or moving slower than usual",
+        "Loss of interest in sex",
+        "Difficulty concentrating or remembering",
+        "Increased use of alcohol, tobacco or drugs",
+        "Sleep problems",
+        "Appetite and weight changes",
+        "Unexplained aches and pains"
+      ],
+      "causes": [
+        "Stressful life events (bereavement, divorce, relationship problems)",
+        "Illness or physical health problems",
+        "Money worries",
+        "Job loss",
+        "Drug and alcohol use",
+        "Family history of depression",
+        "Negative thinking patterns",
+        "Having a baby (postnatal depression)",
+        "Negative childhood experiences",
+        "Other mental health problems (anxiety, PTSD, eating disorders)"
+      ],
+      "treatments": [
+        "Talking therapies (CBT, counselling, IPT, psychodynamic psychotherapy)",
+        "Computerised CBT (CCBT)",
+        "Antidepressant medications (SSRIs, SNRIs, NASSAs, TCAs)",
+        "Lithium (in certain circumstances)",
+        "Electroconvulsive therapy (ECT) for severe cases",
+        "St John's Wort (herbal treatment - not recommended by doctors)"
+      ],
+      "prevention": [
+        "Talk to people you trust",
+        "Try creative activities (art, poetry, journaling)",
+        "Look after mental wellbeing",
+        "Seek professional help when needed"
+      ],
+      "diet_recommendations": [
+        "No specific dietary recommendations mentioned",
+        "Focus on overall mental wellbeing and self-care"
+      ]
+    },
+    {
+      "name": "Type 2 Diabetes",
+      "category": "endocrine",
+      "description": "A lifelong condition that causes blood glucose (sugar) levels to become too high due to insufficient insulin production or insulin resistance.",
+      "symptoms": [
+        "Feeling very thirsty",
+        "Passing urine more often than usual (especially at night)",
+        "Feeling very tired",
+        "Weight loss and loss of muscle bulk",
+        "Slow healing cuts or ulcers",
+        "Frequent vaginal or penile thrush",
+        "Blurred vision"
+      ],
+      "causes": [
+        "Body doesn't produce enough insulin",
+        "Body's cells don't react to insulin (insulin resistance)",
+        "Often associated with obesity",
+        "More common in older people",
+        "Now seen in young people due to increased obesity"
+      ],
+      "treatments": [
+        "Dietary changes",
+        "Planned weight loss (can reverse disease early on)",
+        "Diabetes medications/tablets",
+        "Insulin therapy",
+        "Regular blood glucose monitoring",
+        "Annual eye screening for diabetic retinopathy"
+      ],
+      "prevention": [
+        "Maintain healthy weight",
+        "Eat healthy, balanced diet",
+        "Stop smoking",
+        "Drink alcohol in moderation",
+        "Take regular exercise"
+      ],
+      "diet_recommendations": [
+        "Follow healthy, balanced diet",
+        "Control portion sizes",
+        "Limit high-sugar foods",
+        "Include variety of foods as per Eatwell Guide"
+      ],
+      "complications": [
+        "Diabetic retinopathy (leading cause of vision loss)",
+        "Kidney failure",
+        "Lower limb amputation",
+        "Cardiovascular disease",
+        "Nerve damage"
+      ]
+    },
+    {
+      "name": "Heart Attack",
+      "category": "cardiovascular",
+      "description": "A serious medical condition when there's a reduction in blood supply to part of the heart muscle, causing potential damage to the heart.",
+      "symptoms": [
+        "Central chest pain or discomfort that doesn't go away",
+        "Pain that spreads to left arm, both arms, neck, jaw, back or stomach",
+        "Feeling of pressure, tightness or squeezing in chest",
+        "Unconsciousness",
+        "Seizures or fitting",
+        "Difficulty breathing (snoring or rasping)",
+        "Rapid or low heart rate",
+        "Chest pain with breathlessness, nausea or sweating"
+      ],
+      "causes": [
+        "Blocked or narrowed coronary arteries",
+        "Blood clots in coronary arteries",
+        "Atherosclerosis (fatty deposits in arteries)"
+      ],
+      "treatments": [
+        "Anti-emetics (for nausea)",
+        "Antiplatelet therapy (blood thinning medication)",
+        "Coronary angioplasty",
+        "Oxygen therapy",
+        "Pain-relieving drugs (like morphine)",
+        "Reperfusion treatment",
+        "Thrombolysis (clot-busting drugs)",
+        "Multiple medications as prescribed"
+      ],
+      "prevention": [
+        "Lifestyle changes through cardiac rehabilitation",
+        "Understanding condition and medications",
+        "Making heart-healthy lifestyle changes",
+        "Managing risk factors"
+      ],
+      "diet_recommendations": [
+        "Heart-healthy diet as part of cardiac rehabilitation",
+        "Low-fat, low-salt diet recommended"
+      ],
+      "complications": [
+        "Arrhythmias (heart rhythm problems)",
+        "Heart failure",
+        "Both may resolve quickly or need ongoing medication"
+      ]
+    },
+    {
+      "name": "High Blood Pressure (Hypertension)",
+      "category": "cardiovascular",
+      "description": "A condition where blood pressure in the arteries is consistently above 140/90 mmHg, increasing risk of cardiovascular diseases.",
+      "symptoms": [
+        "Often has no symptoms",
+        "In rare cases with very high BP: headaches, blurred or double vision, regular nosebleeds, shortness of breath"
+      ],
+      "causes": [
+        "High-fat diet",
+        "High-salt diet",
+        "Lack of exercise",
+        "Being overweight",
+        "Smoking",
+        "Too much alcohol",
+        "Stress",
+        "Recreational drugs",
+        "Older age",
+        "Family history",
+        "Afro-Caribbean or South Asian origin",
+        "Kidney disease",
+        "Diabetes",
+        "Hormonal conditions (Cushing's syndrome)",
+        "Obstructive sleep apnoea",
+        "Some medications (oral contraceptives)"
+      ],
+      "treatments": [
+        "Lifestyle changes",
+        "ACE inhibitors (like ramipril)",
+        "Calcium channel blockers (like amlodipine)",
+        "Thiazide diuretics (like bendroflumethazide)",
+        "Alpha-blockers (like doxazosin)",
+        "Beta-blockers (like atenolol)",
+        "Combination of medications often needed"
+      ],
+      "prevention": [
+        "Regular exercise",
+        "Reduce alcohol intake",
+        "Eat healthy, low-fat diet",
+        "Restrict salt intake",
+        "Lose weight if overweight/obese",
+        "Drink less caffeine",
+        "Try relaxation therapies (yoga, meditation)",
+        "Don't take recreational drugs"
+      ],
+      "diet_recommendations": [
+        "Low-fat diet",
+        "Low-salt diet",
+        "Healthy, balanced eating",
+        "Reduce caffeine intake"
+      ],
+      "complications": [
+        "Stroke",
+        "Heart attack",
+        "Arterial thrombosis",
+        "Abdominal aortic aneurysm",
+        "Kidney disease",
+        "Vascular dementia"
+      ]
+    },
+    {
+      "name": "Kidney Stones",
+      "category": "urological",
+      "description": "Hard stone-like lumps that can form in one or both kidneys when waste products in blood form crystals that build up over time.",
+      "symptoms": [
+        "Small stones may pass painlessly",
+        "Persistent ache in lower back (sometimes felt in groin)",
+        "Periods of intense pain in back, side of abdomen, or groin",
+        "Pain in testicles and scrotum (men)",
+        "Feeling restless and unable to lie still",
+        "Nausea (feeling sick)",
+        "Needing to urinate more often than normal",
+        "Pain when urinating (dysuria)",
+        "Blood in urine (haematuria)",
+        "If kidney infection develops: high fever, chills, weakness, diarrhea, cloudy/bad-smelling urine"
+      ],
+      "causes": [
+        "Not drinking enough fluids",
+        "Taking certain medications",
+        "Medical conditions that raise levels of substances in urine",
+        "Waste products forming crystals in kidneys that build up over time"
+      ],
+      "treatments": [
+        "Small stones (under 4mm): treated at home with pain relief",
+        "Pain relief injections",
+        "Anti-emetic medications",
+        "Drinking water to make urine colorless",
+        "ESWL (shock wave lithotripsy) for larger stones",
+        "Ureteroscopy",
+        "Percutaneous nephrolithotomy (PCNL)",
+        "Open surgery (rare - less than 1%)",
+        "For uric acid stones: drink 3 liters water daily, alkaline medication"
+      ],
+      "prevention": [
+        "Drink plenty of water every day",
+        "Keep urine diluted (clear) at all times",
+        "Avoid dehydration"
+      ],
+      "diet_recommendations": [
+        "Maintain high fluid intake (water)",
+        "Keep urine clear/colorless",
+        "For uric acid stones: may need alkaline fluids"
+      ],
+      "complications": [
+        "Kidney infection if stone blocks ureter",
+        "Sepsis (from treatment)",
+        "Blocked ureter",
+        "Injury to ureter",
+        "Urinary tract infection",
+        "Bleeding during surgery"
+      ]
+    },
+    {
+      "name": "Stroke",
+      "category": "neurological",
+      "description": "A serious, life-threatening medical condition that happens when blood supply to part of the brain is cut off.",
+      "symptoms": [
+        "FAST signs: Face drooping, Arm weakness, Speech problems, Time to call 999",
+        "Complete paralysis of one side of body",
+        "Sudden loss or blurring of vision",
+        "Difficulty understanding what others are saying",
+        "Problems with balance and coordination",
+        "Sudden severe headache",
+        "Loss of feeling in one side of body"
+      ],
+      "causes": [
+        "Ischaemic stroke (85%): blood clot blocks blood supply",
+        "Haemorrhagic stroke: weakened blood vessel bursts",
+        "Brain cells die without oxygen and nutrients from blood"
+      ],
+      "treatments": [
+        "Emergency treatment to restore blood flow",
+        "Treatment varies by stroke type (ischaemic vs haemorrhagic)",
+        "Blood clot removal for ischaemic strokes",
+        "Surgery for haemorrhagic strokes",
+        "Rehabilitation with specialists (physiotherapists, speech therapists, etc.)",
+        "Supportive treatments",
+        "Medications to prevent further strokes"
+      ],
+      "prevention": [
+        "Healthy diet (low-fat, low-salt, high-fiber)",
+        "Regular exercise",
+        "Stop smoking",
+        "Reduce alcohol intake",
+        "Control blood pressure",
+        "Manage cholesterol",
+        "Control diabetes",
+        "Treat atrial fibrillation with anticoagulants"
+      ],
+      "diet_recommendations": [
+        "Low-fat, low-salt, high-fiber diet",
+        "Plenty of fresh fruit and vegetables",
+        "Whole grains",
+        "Heart-healthy eating pattern"
+      ],
+      "risk_factors": [
+        "Poor diet",
+        "Lack of exercise",
+        "Obesity",
+        "Smoking",
+        "Too much alcohol",
+        "High cholesterol",
+        "High blood pressure",
+        "Diabetes",
+        "Atrial fibrillation",
+        "Age over 65",
+        "Family history",
+        "Ethnicity (South Asian, African, Caribbean)",
+        "Previous stroke/TIA/heart attack"
+      ]
+    },
+    {
+      "name": "Pneumonia",
+      "category": "respiratory",
+      "description": "Inflammation of lung tissue usually caused by bacterial infection, where tiny air sacs become inflamed and fill with fluid.",
+      "symptoms": [
+        "Difficulty breathing",
+        "Severe chest pain",
+        "Pain spreading to arms, back, neck, jaw",
+        "Drowsiness or difficulty waking",
+        "Pale, blue or grey lips/skin",
+        "Shortness of breath",
+        "Pain when breathing in or coughing",
+        "Confusion, dizziness, lightheadedness",
+        "Nausea and vomiting",
+        "Coughing up blood",
+        "Heart palpitations",
+        "Reduced urination",
+        "High or low temperature",
+        "Persistent cough (more than 3 weeks)"
+      ],
+      "causes": [
+        "Streptococcus pneumoniae (pneumococcal infection) - most common",
+        "Other bacteria (Haemophilus influenzae, Staphylococcus aureus)",
+        "Viruses (RSV, coronavirus/COVID-19, influenza A or B)",
+        "Aspiration pneumonia (breathing in vomit, foreign objects, chemicals)",
+        "Fungal pneumonia (rare in UK)",
+        "Hospital-acquired pneumonia"
+      ],
+      "treatments": [
+        "Mild pneumonia: treated at home",
+        "Get plenty of rest",
+        "Take prescribed antibiotics (complete full course)",
+        "Drink plenty of fluids",
+        "Pain relief (paracetamol)",
+        "Avoid cough medicines",
+        "Warm honey and lemon drink for cough comfort",
+        "Hospital treatment for severe cases: IV antibiotics, fluids, oxygen",
+        "Ventilator support in ICU for very serious cases"
+      ],
+      "prevention": [
+        "Stop smoking (damages lungs)",
+        "Flu vaccination",
+        "Pneumococcal vaccination",
+        "Avoid close contact if immunocompromised"
+      ],
+      "diet_recommendations": [
+        "Drink plenty of fluids",
+        "Warm honey and lemon drinks can help with cough discomfort",
+        "Maintain nutrition during recovery"
+      ],
+      "risk_factors": [
+        "Babies and very young children",
+        "Elderly people",
+        "People who smoke",
+        "People with other health conditions (asthma, cystic fibrosis, heart/kidney/liver conditions)",
+        "People with weakened immune system"
+      ]
+    }
+  ]
+}
